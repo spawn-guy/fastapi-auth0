@@ -2,7 +2,7 @@ name: Check pull request
 
 on:
   pull_request:
-    branches: [master]
+    branches: [package_pypi]
 
 jobs:
   test:
