@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as file:
 
 setuptools.setup(
     name='fastapi-auth0-pyjwt',
-    version='0.6.2',
+    version='0.6.3',
     description='Easy auth0.com integration for FastAPI and PyJWT',
     long_description=readme,
     long_description_content_type='text/markdown',

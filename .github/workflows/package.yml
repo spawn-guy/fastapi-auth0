@@ -3,6 +3,8 @@ name: Publish Python 🐍 distribution 📦 to PyPI and TestPyPI
 on:
   push:
     branches: [package_pypi]
+  release:
+    types: [published]
 
 jobs:
 #  test:
