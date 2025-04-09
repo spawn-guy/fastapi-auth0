@@ -1,9 +1,11 @@
 # Description
+this is a FORK of the original `fastapi-auth0` with `python-jose` swapped to `PyJWT` (as in the auth0 package itself)
+
 Integrate FastAPI with https://auth0.com in a simple and elegant way.
 Get automatic Swagger UI support for the implicit scheme (along others), which means that signing in using social providers is only a few clicks away with no additional code.
 
 # Installation
-- `pip install fastapi-auth0`
+- `pip install fastapi-auth0-pyjwt`
 
 # Requirements
 Reading auth0 docs is recommended in order to understand the following concepts:

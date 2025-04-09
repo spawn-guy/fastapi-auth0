@@ -14,7 +14,7 @@ from pydantic import BaseModel, Field, ValidationError
 
 logger = logging.getLogger('fastapi_auth0')
 
-auth0_rule_namespace: str = os.getenv('AUTH0_RULE_NAMESPACE', 'https://github.com/dorinclisu/fastapi-auth0')
+auth0_rule_namespace: str = os.getenv('AUTH0_RULE_NAMESPACE', 'https://github.com/spawn-guy/fastapi-auth0')
 
 
 class Auth0UnauthenticatedException(HTTPException):
